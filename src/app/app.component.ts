@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CarteDeVisiteComponent } from './carte-de-visite/carte-de-visite.component';
 
 @Component({
   selector: 'app-root',

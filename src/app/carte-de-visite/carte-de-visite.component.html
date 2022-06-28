@@ -1,0 +1,20 @@
+<div>
+    <h1>Les cartes de visites des employés:</h1>
+    <div *ngFor="let employe of employes">
+        <div  *ngIf="employe.id%2 === 0" class="card__container">
+            <div class="card__company">
+                <p>{{employe.company.name}}</p>
+                <p>{{employe.company.catchPhrase}}</p>
+            </div>
+            <div class="card__title">
+                <p>{{employe.name}}</p>
+                <p>ID: {{employe.id}}</p>
+            </div>
+            <div class="card__infos">
+                <p>Email: {{employe.email}}</p>
+                <p>Téléphone: {{employe.phone}}</p>
+                <p>Website: {{employe.website}}</p>
+            </div>         
+        </div>
+    </div>
+</div>

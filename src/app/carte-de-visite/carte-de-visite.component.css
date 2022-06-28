@@ -1,0 +1,43 @@
+
+h1 {
+    text-align: center;
+    color: rgb(63, 174, 164);
+}
+.card__container {
+    background-color: rgb(128, 204, 179);
+    border-radius: 25px;
+    width: 28rem;
+    color: white;
+    margin-bottom: 1rem;
+    margin: 0 auto;
+}
+
+.card__company {
+    background-color: rgb(160, 226, 204);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 0rem 1.2rem 0.1rem 0rem;
+    text-align: right;
+}
+.card__company p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-bottom: -1rem;
+}
+.card__title {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-left: 1.2rem;
+}
+.card__title p:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.card__title p:nth-child(2) {
+    text-align: right;
+}
+.card__infos {
+    margin-left: 0.5rem;
+    padding-bottom: 0.3rem;
+}
