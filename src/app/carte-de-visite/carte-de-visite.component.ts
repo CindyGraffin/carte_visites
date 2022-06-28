@@ -238,7 +238,14 @@ export class CarteDeVisiteComponent implements OnInit {
             },
         },
     ];
+
+    hidden: boolean = false;
+
     constructor() {}
 
     ngOnInit(): void {}
+
+    toggle(): void {
+        this.hidden = !this.hidden
+    }
 }

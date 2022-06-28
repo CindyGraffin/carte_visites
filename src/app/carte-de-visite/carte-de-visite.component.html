@@ -1,7 +1,8 @@
 <div>
     <h1>Les cartes de visites des employés:</h1>
-    <div *ngFor="let employe of employes">
-        <div  *ngIf="employe.id%2 === 0" class="card__container">
+    <button (click)="toggle()">Afficher/Masquer cartes</button>
+    <div *ngFor="let employe of employes; odd as isOdd" [hidden]="hidden">
+        <div  *ngIf="isOdd" class="card__container">
             <div class="card__company">
                 <p>{{employe.company.name}}</p>
                 <p>{{employe.company.catchPhrase}}</p>

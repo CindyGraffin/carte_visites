@@ -41,3 +41,7 @@ h1 {
     margin-left: 0.5rem;
     padding-bottom: 0.3rem;
 }
+button {
+    display: flex;
+    margin: 0 auto;
+}
